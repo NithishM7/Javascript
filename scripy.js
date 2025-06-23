@@ -24,4 +24,5 @@ const mode = "Online only";
 console.log(mode);
 console.log(typeof mode);
 
+These are the variables in vs
 */
