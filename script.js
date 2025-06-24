@@ -1,44 +1,79 @@
-// IN PRIMITIVE DT there are 7 types
-/*  String
-    Number
-    Boolean
-    undefined
-    null
-    symbol
-    Bigint */
+/* Operators in js
+    1.Arithmetic operator
+    2.Assignment operator
+    3.Comparison operator
+    4.Logical operator
 
-// String 
+*/
 
-// There are two ways in creating a string and primitve DT.
-// 1. String Literal Way
-// 2. String Constructor Way
+// Arithmetic Operator (+,-,*,/,%,++,--) This same for all the arithmetic operators.
 
+let a = 5;
+let b = 7;
 
-// Literal Way
-let cName = "Nithish";
-console.log(cName);
-console.log(typeof cName);
+let c = a + b;
 
+console.log(c);
 
-// Constructor Way
-let cc = new String ("Summa");
-console.log(cc);
-console.log(typeof cc);
+/* Increment operator 
+    1. Prefix increment operator
+    2. Postfix increment operator
+*/
 
-// Number and Boolen both are similar like string 
+// Prefix 
 
+let aa = 7;
+++aa;
+console.log(aa);
 
-// Undefined
+// Postfix
 
-let couseDuration;
-console.log(couseDuration);
-console.log(typeof couseDuration);
+let aaa = 6;
+console.log(aaa++);
+console.log(aaa);
 
-// null
-
-let courseDuration = null;
-console.log(courseDuration);
-console.log(typeof courseDuration);
+// This is also same for the decrement.
 
 
+// Assignment Operator (==,===,+=,-=,*=,/=,%=)
 
+console.log("Assignment operator");
+
+console.log("Nithish" == "Nithish");
+console.log(true == true);
+console.log("8" == 8);
+
+console.log("Nithish" === "Kathir");
+console.log(true === false);
+console.log("8" === 8);
+console.log(9 === 9);
+
+// Comparison Operator
+
+console.log("Comparison operator");
+
+console.log(5<3);
+console.log(5>3);
+console.log(5<=3);
+console.log(5>=5);
+
+// Logical Operator
+
+console.log("And Operator");
+
+console.log(1 && 1);
+console.log(0 && 1);
+console.log(1 && 0);
+console.log(0 && 0);
+
+console.log("Or Operator");
+
+console.log(1 || 1);
+console.log(0 || 1);
+console.log(1 || 0);
+console.log(0 || 0);
+
+console.log("Not Operator");
+
+console.log(4 != 4)
+console.log(4 != 5)
