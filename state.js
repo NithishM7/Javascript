@@ -6,6 +6,8 @@ There are four Statements in JS
         2.if-else statement
         3.else-if statement
         4.switch case
+
+In most of the cases it is used to perform the set of code or block of code in our program. It always contains the true value and flase value.
 */
 
 // if statement 
