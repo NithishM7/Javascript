@@ -72,3 +72,5 @@ let names = "Development";
 
 console.log(course.concat(names))
 console.log(course,names);
+
+// "," is used to store the values in a arrary very differently it not concate this gives the array with correct sentence.
