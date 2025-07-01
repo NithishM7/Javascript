@@ -104,3 +104,8 @@ let t = [1,2,3,4,5];
 for(let tt of t){
     console.log(tt)
 }
+
+console.log("********** For decrement operator **************")
+for(z=6;z>1;z--){
+    console.log(z);
+}
