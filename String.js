@@ -75,3 +75,8 @@ console.log(courseName.replaceAll("UI","FullStack"));
 // 12. substring()
 
 console.log(courseName.substring(3,14));
+
+// 13. includes()
+
+console.log(courseName.includes("U");
+console.log(courseName.includes("I");
