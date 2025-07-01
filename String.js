@@ -80,3 +80,4 @@ console.log(courseName.substring(3,14));
 
 console.log(courseName.includes("U");
 console.log(courseName.includes("I");
+console.log(courseName.includes("z");
