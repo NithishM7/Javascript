@@ -109,3 +109,13 @@ console.log("********** For decrement operator **************")
 for(z=6;z>1;z--){
     console.log(z);
 }
+
+let ii = "Nithish";
+for(c=9;c>ii.length-1;c--){
+    console.log(ii,[c]);
+}
+
+let course = "JavaScript";
+for(v=0;v<=course.length-1;v++){
+    console.log(course[v]);
+}
