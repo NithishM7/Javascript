@@ -82,3 +82,22 @@ console.log(key);
 
 let value = Object.values(details);
 console.log(value);
+
+// 4. Object.entries
+
+let entry = Object.entries(details);
+console.log(entry);
+
+// 4. Object,assign
+
+console.log(Object.assign(details,detial));
+
+// 5. Object.freeze. In freeze if determined one time there is no way to upload or modify new string into a freezed mode.
+
+console.log(Object.freeze(details));
+
+details.age = 23;
+console.log(details);
+
+details.status = "Active";
+console.log(details);
