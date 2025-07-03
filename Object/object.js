@@ -68,3 +68,17 @@ console.log(details);
 
 delete details.status;
 console.log(details);
+
+// 1. hasOwnProperty
+console.log(details.hasOwnProperty("firstname"));
+console.log(details.hasOwnProperty("fname"));
+
+// 2. Object.keys
+
+let key = Object.keys(details);
+console.log(key);
+
+// 3. Object.values
+
+let value = Object.values(details);
+console.log(value);
