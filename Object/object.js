@@ -101,3 +101,29 @@ console.log(details);
 
 details.status = "Active";
 console.log(details);
+
+// 6. seal. It is similar to freeze but it accepts the modify value only not a new one.
+
+console.log(Object.seal(details));
+
+details.age = 23;
+console.log(details);
+
+details.status = "Active";
+console.log(details);
+
+// console.log(Object.seal(details));
+
+
+// Math Methods
+
+
+// 1. Date 
+let dt = new Date();
+console.log(dt)
+
+console.log(dt.getDate());
+console.log(dt.getFullYear());
+console.log(dt.getHours());
+console.log(dt.getMonth());
+console.log(dt.getMilliseconds());
