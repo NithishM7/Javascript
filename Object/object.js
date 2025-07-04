@@ -127,3 +127,13 @@ console.log(dt.getFullYear());
 console.log(dt.getHours());
 console.log(dt.getMonth());
 console.log(dt.getMilliseconds());
+
+// Math
+
+// 2. Math
+
+console.log(Math.ceil(123.89));
+console.log(Math.floor(123.89));
+console.log(Math.round(123.89));
+console.log(Math.max(1,2,3,5,6,7,8));
+console.log(Math.min(1,2,3,5,6,7,8));
