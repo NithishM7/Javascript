@@ -134,3 +134,38 @@ c();
 
 // aa();
 
+// First class function - It is nothing but assigning a function as values and to return one function inside another and pass function as argument.
+
+// 1. assigning one function as value.
+
+var aa = function vv(){
+    console.log("Super");
+}
+
+aa();
+
+// 2. Assigning function as  argument
+
+function callFunction(fn) {
+    console.log(fn());
+}
+
+function sayHi() {
+    return "Hi!";
+}
+
+callFunction(sayHi); // Output: Hi!
+
+// 3. Returning one function inside another
+
+function multiplier(x) {
+    return function(y) {
+        return x * y;
+    };
+}
+
+const double = multiplier(2);
+console.log(double(5)); // Output: 10
+
+// Higher order function - It is nothing but it takes another function as a argument and returns function.
+
