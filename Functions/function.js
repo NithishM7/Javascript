@@ -113,3 +113,24 @@ c();
 //     console.log("Function Expression");
 // }
 
+// anonymous Function - It is nothing but creating one function without declaring a name. The main purpose of anonymous function is used to assign an function expression
+
+// function(){
+//     console.log("Super");
+// }
+
+// Function Expression
+
+// var aa = function(){
+//     console.log("Super");
+    
+// }
+
+// Named Function Expression - It is nothing but creating one function in a normal way. Then it is assigned to function expression.
+
+// var aa = function vv(){
+//     console.log("Super");
+// }
+
+// aa();
+
