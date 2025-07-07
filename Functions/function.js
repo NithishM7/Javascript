@@ -78,3 +78,22 @@ function a(){
 a();
 
 // inner function is have to call inside a outer function because it didn't holds the lexical in outer.
+
+// Difference between function statement and function expression
+
+// fuction statement is nothing but declaring a function in normal way or literal way. 
+
+function name(){
+    console.log("Function statement");
+}
+name()
+
+// function expression is nothing but getting a whole function as a value. The variable contains a whole function as a value.
+
+var c = function () {
+    console.log("Function Expression");
+}
+c();
+
+// The difference between both is hoisting.
+
