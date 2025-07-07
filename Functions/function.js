@@ -97,3 +97,19 @@ c();
 
 // The difference between both is hoisting.
 
+// For normal function statement or declaration is hoisting accepted and it can give the value. 
+// EX:
+
+// name()
+// function name(){
+//     console.log("Function statement");
+// }
+
+// But for function expression it can't give the value because hoisting is not work here.
+
+// c();
+
+// var c = function () {
+//     console.log("Function Expression");
+// }
+
