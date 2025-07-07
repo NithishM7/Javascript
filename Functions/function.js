@@ -66,3 +66,15 @@ function sub(a,b){
 }
 console.log(sub(20,10));
 
+// Nested Function - Is nothing but intializing the function inside another function is called nested function.
+
+function a(){
+    console.log("This is outer function");
+    function b(){
+        console.log("This is inner function");
+    }
+    b();
+}
+a();
+
+// inner function is have to call inside a outer function because it didn't holds the lexical in outer.
