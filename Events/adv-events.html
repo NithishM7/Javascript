@@ -100,7 +100,17 @@
         // In child clicking it gives the alert message only when the child div is clicked because after the child it tends to trigger the parent.
         */
 
-        
+        /* Event Capturing - The capturing that move from top to target. It starts moving from the above and then it goes to a target.
+
+        document.getElementById("parent").addEventListener('click', (e) => {
+            if(e.target === e.currentTarget)
+            alert("parent Clicked");
+        });
+
+        document.getElementById("child").addEventListener('click', () => {
+            console.log("child Clicked");
+        },true);
+        */
         
     </script>
 </body>
