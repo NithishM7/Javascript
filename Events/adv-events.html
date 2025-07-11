@@ -36,6 +36,44 @@
         // It prints the program only one time and it automatically deletes the eventlistener
         */
 
+        /* removeEventListener() - Using two buttons & same button(only once) & only:true
+
+        const mybtn = document.getElementById("mybtn");
+        const remove = document.getElementById("remove");
+
+        // function creation
+
+        function sayHello(){
+            alert("Yengaaa")
+        }
+
+        // adding eventlistener
+
+        mybtn.addEventListener('click', sayHello)
+
+        // removing eventlistener
+
+        remove.addEventListener('click',function (){
+            mybtn.removeEventListener('click',sayHello)
+            alert("Successfully removed the btn function")
+        })
+
+        const mybtn = document.getElementById("mybtn");
+
+        function handle(){
+            alert("You Clicked")
+
+            // Removing itself after first check
+            mybtn.removeEventListener('click',handle)
+            alert("Button Cleared")
+        }
+        mybtn.addEventListener('click',handle)
+
+        const mybtn = document.getElementById('mybtn');
+
+        mybtn.addEventListener('click',()=>{
+            alert("Vanakam")
+        },{once:true})*/
     </script>
 </body>
 </html>
