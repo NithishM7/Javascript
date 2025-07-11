@@ -74,6 +74,34 @@
         mybtn.addEventListener('click',()=>{
             alert("Vanakam")
         },{once:true})*/
+
+        /* Event Bubbling - 
+        // The bubbling that goes from target to top. The bubbling that goes first to the target element (child) and then it moves above to the parent.
+
+        document.getElementById("parent").addEventListener('click',() => {
+            alert("Parent Clicked")
+        });
+
+        // To stop from parent triggers even when the child clicked
+
+        document.getElementById('parent').addEventListener('click',(e) =>{
+            if(e.target === e.currentTarget){
+                alert('Parent Clicked')
+            }
+        })
+
+        // In parent clicking it gives the alert message even if i click the child div because the parent contains the target so it fires even when the child is clicked.
+
+        document.getElementById("child").addEventListener('click',(e) => {
+            e.stopPropagation();
+            alert("child Clicked")
+        });
+
+        // In child clicking it gives the alert message only when the child div is clicked because after the child it tends to trigger the parent.
+        */
+
+        
+        
     </script>
 </body>
 </html>
