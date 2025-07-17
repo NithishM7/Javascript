@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Regex</title>
+</head>
+<body>
+    
+    <script>
+
+        // Regex is used to find the match or restrict the user to give set of values only and find the user giving is wrong or correct key.
+        
+        let pattern = /\d{10}/;
+        let str = "9677321445"
+        console.log(pattern.test(str)); // true
+
+        console.log(/\d/.test("123abc")) // true // Checks for number in specific word
+
+        console.log(/\w/.test("Nithish777")); // true // Checks for any character in a string
+        
+        console.log(/\W/.test("Nithish")); // false // Checks for any non-character (without number and character) presents in string.
+
+        console.log(/\D/.test("Nithish777")); // true // Checks for any non-digit character presents in the string.
+        
+        // Match
+
+        console.log("hi\nhello0".match(/^hello/m));
+
+        console.log("banana".match(/a/g)); // a a a Three a's in a string that matches 
+
+    </script>
+</body>
+</html>
