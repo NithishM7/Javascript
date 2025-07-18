@@ -24,3 +24,25 @@ function validation() {
 
 }
 user.addEventListener('keyup',validation);
+
+// This is for pan card section
+
+let panform = document.getElementById('panForm');
+let pannumber = document.getElementById('pan');
+let btn = document.getElementById('btn');
+let span = document.getElementById('spa');
+
+
+panform.addEventListener('submit', function(e){
+    // e.preventDefault();
+    let panInput = pannumber.value;
+    let regPattern = /^[A-Z]{5}[0-9]{4}[A-Z]$/;
+    if(regPattern.test(panInput)){
+        span.textContent = 'Valid Pan Number';
+        span.style.color = 'green'
+    }else{
+        e.preventDefault();
+        span.textContent = 'Invalid Pan Number';
+        span.style.color = 'red';
+    }
+})
